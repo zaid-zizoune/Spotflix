@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color:black;
+}
+h1{
+    margin: 0%; 
+    font-size: xx-large;
+    font-family: "Archivo Black", sans-serif;
+    .flix{
+    color: red;
+}
+.spot{
+    color: springgreen;
+}
+}
+.menu{
+  margin-top: 0%;
+    display: flex;  
+    background-color: black;
+position: fixed;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+z-index: 555;
+}
+div ul{
+    display: flex;
+    gap: 30px;
+}
+div ul li a{
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+   font-family: "Lilita One", sans-serif ;
+   font-size: 20px;
+
+  font-weight: 400;
+  z-index: 555;
+}
+div ul li:nth-child(1) a:hover {
+    color: beige ;
+  }
+  
+  div ul li:nth-child(2) a:hover {
+    color: red;
+  }
+  
+  div ul li:nth-child(3) a:hover {
+    color: springgreen;
+  }
+  
+  div ul li:nth-child(4) a:hover {
+    color: teal;
+  }
+#home{
+  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
+height: 530px;
+}
+h2{
+  color: black ;
+  margin-left: 0%;
+ font-size: 100px;
+ font-family: "Anton", sans-serif ;
+}
+h3{
+  color:black;
+  text-align: right;
+  margin-right: 0%;
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+}
+.container{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  #card{
+    position: relative;
+    height: 510px;
+    width: 330px;
+    margin-top: 80px;
+    background-color: black;
+    color: RED;
+    border: 2px solid red;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#n{
+    color: #e50914;
+    font-family: "Anton", sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 95px;
+    text-align: center;
+    justify-content: center;
+    
+} 
+
+.plan{
+  text-align: left;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 30px;
+  margin-top:-30%;
+  font-size: 38px;
+  color: white;
+}
+.prix{
+  text-align: left;
+  font-family: "Cal Sans", sans-serif;
+  margin-left: 30px;
+  margin-top: -25px;
+  color: #e50914;
+  font-size: 20px;
+}
+.prg {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  font-family: "Cal Sans", sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 15px;
+  color: white;
+  gap: 7PX;
+}
+.btn{
+  position: absolute;
+  bottom: 15px;              
+  left: 50%;                 
+  transform: translateX(-50%);
+  color: black;
+  background-color:#e50914;
+  border: none;
+  font-family: "Archivo Black", sans-serif;
+  padding: 7px 15px;
+  font-size: 23px;
+  border-radius: 15px;
+  transition: 1s;
+}
+.btn:hover {
+  background-color: #212121;
+  color: #e50914;
+  border: solid 2px #e50914;
+}
+
+#card2{
+  position: relative;
+  height: 510px;
+  width: 330px;
+  margin-top: 80px;
+  background-color: black;
+  color:springgreen;
+  border: 2px solid springgreen;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.s{
+width: 330px;
+margin-top: -10px;
+
+}
+.s-plan{
+  text-align: left;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: -35px;
+  font-size: 38px;
+  color: white;
+}
+.s-prix{
+  text-align: left;
+  font-family: "Cal Sans", sans-serif;
+  margin-left: 40px;
+  margin-top: -25px;
+  color: #1DB954;
+  font-size: 20px;
+}
+.s-prg {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  font-family: "Cal Sans", sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-left: 16px;
+  font-size: 15px;
+  color: white;
+  gap: 7PX;
+}
+.plans-buttons{
+  display: flex;
+}
+.s-btn{
+  position: absolute;
+  bottom: 15px;              
+  left: 50%;                 
+  transform: translateX(-50%);
+  color: black;
+  background-color:#1DB954;
+  border: none;
+  font-family: "Archivo Black", sans-serif;
+  padding: 7px 15px;
+  font-size: 23px;
+  border-radius: 15px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.s-btn:hover {
+  background-color: #212121;
+  color:#1DB954 ;
+  border: solid 2px #1DB954;
+}
