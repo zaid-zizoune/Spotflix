@@ -7,50 +7,7 @@ html{
 body {
     background-color:black;
 }
-.spot{
-    color: springgreen;
-}
-.flix{
-  color: #e50914;
-}
-.menu{
-    display: flex;  
-    background-color: black;
-position: fixed;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-z-index: 555;
-}
-div ul{
-    display: flex;
-    gap: 30px;
-}
-div ul li a{
-    color: white;
-    margin-right: 50px;
-    text-decoration: none;
-   font-family: "Lilita One", sans-serif ;
-   font-size: 20px;
 
-  font-weight: 400;
-  z-index: 555;
-}
-div ul li:nth-child(1) a:hover {
-    color: beige ;
-  }
-  
-  div ul li:nth-child(2) a:hover {
-    color: red;
-  }
-  
-  div ul li:nth-child(3) a:hover {
-    color: springgreen;
-  }
-  
-  div ul li:nth-child(4) a:hover {
-    color: teal;
-  }
 #home{
   background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
 height: 570px;
